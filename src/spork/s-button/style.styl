@@ -1,0 +1,27 @@
+:host
+  display: block
+  width: 100%
+
+button
+  display: block;
+  outline: none
+  box-shadow: none
+  border: none
+  background: white
+  color: #002955
+  opacity: 0.75
+  font-size: 18px
+  font-weight: 400
+  padding: 15px 50px
+  margin: auto
+
+  &:hover
+    opacity: 1
+
+:host([round]) button
+  border-radius: 50px;
+
+:host([outline]) button
+  background: none
+  outline: 2px solid var(--button-color, #002955)
+  color: var(--button-color, white)

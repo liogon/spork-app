@@ -1,0 +1,17 @@
+[
+  {
+    "route": "/",
+    "page": "page-home",
+    "title": "Home"
+  },
+  {
+    "route": "/sample",
+    "page": "page-sample",
+    "title": "Sample"
+  },
+  {
+    "route": "/test",
+    "page": "page-test",
+    "title": "Test"
+  }
+]
